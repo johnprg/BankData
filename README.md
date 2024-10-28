@@ -34,4 +34,4 @@ Of particular interest are the economic condition features which have the highes
 2. Variable Employment Rate
 3. Consumer Confidence Index
 
-Full analysis and recommendations can be found [here](./prompt_III.ipynb#Final Analysis and Recommendations)
+Full analysis and recommendations can be found in this [Jupyter Notebook](https://github.com/johnprg/BankData/blob/main/prompt_III.ipynb)
