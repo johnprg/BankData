@@ -1,0 +1,10 @@
+model,train score,accuracy,precision,recall,f1,roc_auc,fit time,seed,estimator
+k Nearest Neighbors,0.889339908952959,0.8866464339908953,0.43902439024390244,0.02425876010781671,0.04597701149425287,0.5101628957857826,0.014388084411621094,42,"Pipeline(steps=[('scale', StandardScaler()),
+                ('knn', KNeighborsClassifier(n_neighbors=10, p=1))])"
+Logistic Regression,0.5759104704097117,0.5781487101669196,0.1591973244147157,0.6415094339622641,0.255091103965702,0.6058094365433755,0.028496980667114258,42,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('lgr',
+                 LogisticRegression(C=0.01, class_weight='balanced',
+                                    max_iter=10000))])"
+Decision Tree,0.8888088012139606,0.8858877086494689,0.3958333333333333,0.025606469002695417,0.04810126582278481,0.510323754337189,0.008064985275268555,42,"DecisionTreeClassifier(max_depth=5, max_features=11, random_state=17)"
+Support Vector Machine,0.5940060698027314,0.5867981790591805,0.1627511065713313,0.6442048517520216,0.259853220983963,0.6118596078185552,12.980660915374756,42,"Pipeline(steps=[('scale', StandardScaler()),
+                ('svm', SVC(C=1, class_weight='balanced'))])"
